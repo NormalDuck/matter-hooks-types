@@ -8,7 +8,8 @@
 
 # Roblox TS builds, artifacts, and packages
 /node_modules
-/out
+# We want to expose our compiled code so it can be installed correctly by directly using this repo
+# /out
 /include
 *.tsbuildinfo
 package-lock.json
