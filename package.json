@@ -1,5 +1,5 @@
 {
-	"name": "@rbxts/planck-matter-hooks",
+	"name": "@rbxts/matter-hooks",
 	"version": "0.1.2",
 	"description": "A hooks library for Matter",
 	"scripts": {
