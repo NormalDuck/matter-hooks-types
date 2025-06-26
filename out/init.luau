@@ -4,6 +4,7 @@ local exports = {}
 --we are not exporting the main package here, just the hooks
 -- import "./package/Matter";
 TS.import(script, script, "package", "Matter")
+TS.import(script, script, "package", "matter-hooks")
 for _k, _v in TS.import(script, script, "package", "matter-hooks") or {} do
 	exports[_k] = _v
 end
